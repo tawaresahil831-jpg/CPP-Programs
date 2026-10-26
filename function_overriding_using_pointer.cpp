@@ -16,9 +16,9 @@ public:
 };
 
 int main() {
-    Animal myAnimal;
+    Animal*myAnimal = new Dog();
 
-    myAnimal.makeNoise(); 
+    myAnimal->makeNoise(); 
 
     return 0;
 }
